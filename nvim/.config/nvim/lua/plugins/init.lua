@@ -17,8 +17,6 @@ return {
     -- or run <leader>ch to see copilot mapping section
     end
   },
-
-  }
   -- These are some examples, uncomment them if you want to see them work!
   -- {
   --   "neovim/nvim-lspconfig",
