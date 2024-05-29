@@ -85,3 +85,6 @@ stow -nvt $HOME git/ tmux/ nvim/ bashrc/
 ```
 
 And again once you're happy you can remove the -n flag.
+
+## Todo
+- [ ] Create shell scripts for initial setup, onboarding new machines, and offboarding machines
