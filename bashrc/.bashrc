@@ -119,3 +119,4 @@ fi
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH=$PATH:$HOME/go/bin
