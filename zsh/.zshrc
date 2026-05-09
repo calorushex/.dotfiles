@@ -44,12 +44,11 @@ export NVM_DIR="$HOME/.nvm"
 # Disable VS Code shell integration to prevent prompt override
 export VSCODE_SHELL_INTEGRATION=0
 
-# Authentic Kali Linux terminal prompt
-PROMPT=$'%F{blue}┌──(%F{red}%n㉿%m%F{blue})-[%F{white}%~%F{blue}]\n└─%F{red}$%f '
+PROMPT=$'%F{4}┌──%F{white}(%F{46}%n%F{white}㉿%F{46}%m%F{white})-[%F{4}%~%F{white}]\n%F{4}└─%F{46}$%f '
 
 # Force the prompt after any shell integration attempts
 precmd() {
-  PROMPT=$'%F{blue}┌──(%F{red}%n㉿%m%F{blue})-[%F{white}%~%F{blue}]\n└─%F{red}$%f '
+  PROMPT=$'%F{4}┌──%F{white}(%F{46}%n%F{white}㉿%F{46}%m%F{white})-[%F{4}%~%F{white}]\n%F{4}└─%F{46}$%f '
 }
 export PATH=$HOME/.local/bin:$PATH:~/go/bin
 
