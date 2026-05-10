@@ -1,0 +1,45 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "glassit.alpha": 255,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".claude/rules": true,
+        "~/.copilot/instructions": true,
+        "~/.claude/rules": true,
+        "C:\\Users\\CJ\\.aitk\\instructions\\": true
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "aitk-foundry:aitk",
+    "snyk.folderConfigs": [
+        {
+            "folderPath": "/home/calorushex/bootdev",
+            "baseBranch": "",
+            "preferredOrg": "",
+            "autoDeterminedOrg": "",
+            "orgMigratedFromGlobalConfig": false,
+            "orgSetByUser": true,
+            "featureFlags": {
+                "internal_iaw_enabled": false,
+                "snykCodeConsistentIgnores": false,
+                "snykCodeInlineIgnore": false
+            },
+            "sastSettings": null
+        }
+    ],
+    "snyk.securityAtInception.autoConfigureSnykMcpServer": true,
+    "snyk.securityAtInception.executionFrequency": "On Code Generation",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "workbench.colorTheme": "Retro Hacker Amber",
+    "snyk.advanced.cliPath": "/home/calorushex/home/calorushex/snap/code/215/.local/share/snyk/vscode-cli/snyk-linux",
+    "snyk.yesWelcomeNotification": false,
+    "workbench.sideBar.location": "right",
+    "@azure.argTenant": "",
+    "chat.tools.terminal.autoApprove": {
+        "nvm": true,
+        "npm start": true
+    },
+    "chat.viewSessions.orientation": "stacked"
+}
