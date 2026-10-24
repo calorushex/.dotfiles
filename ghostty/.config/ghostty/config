@@ -7,8 +7,28 @@ shell = /usr/bin/zsh
 font-family = JetBrains Mono
 font-size = 12
 
-# Theme - you can change this
-theme = dark
+# Cyberpunk palette
+background = #080b12
+foreground = #d7faff
+selection-background = #193344
+selection-foreground = #ffffff
+cursor-color = #00ff9c
+palette = 0=#080b12
+palette = 1=#ff5370
+palette = 2=#00ff9c
+palette = 3=#f3f99d
+palette = 4=#43a5ff
+palette = 5=#ff2bd6
+palette = 6=#00e5ff
+palette = 7=#d7faff
+palette = 8=#586174
+palette = 9=#ff6e8a
+palette = 10=#5dffb3
+palette = 11=#ffffa5
+palette = 12=#6bb6ff
+palette = 13=#ff69df
+palette = 14=#5af0ff
+palette = 15=#ffffff
 
 # Window
 window-padding-x = 8

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2880" height="1800" viewBox="0 0 2880 1800">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#070a12"/>
+      <stop offset=".56" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#111329"/>
+    </linearGradient>
+    <linearGradient id="horizon" x2="0" y2="1">
+      <stop stop-color="#ff2bd6" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tower" x2="0" y2="1">
+      <stop stop-color="#161a31"/>
+      <stop offset="1" stop-color="#080b14"/>
+    </linearGradient>
+    <radialGradient id="planet">
+      <stop stop-color="#b54dff" stop-opacity=".24"/>
+      <stop offset=".72" stop-color="#6427c7" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#6427c7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="windows" width="38" height="48" patternUnits="userSpaceOnUse">
+      <path d="M8 8h10v20H8z" fill="#00e5ff" opacity=".28"/>
+      <path d="M25 8h5v20h-5z" fill="#ff2bd6" opacity=".23"/>
+    </pattern>
+    <pattern id="grid" width="96" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0 0h96M0 0v50" fill="none" stroke="#00e5ff" stroke-opacity=".13" stroke-width="2"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <path fill="url(#sky)" d="M0 0h2880v1800H0z"/>
+  <circle cx="2210" cy="430" r="390" fill="url(#planet)"/>
+  <path d="M0 1120h2880v370H0z" fill="url(#horizon)"/>
+
+  <g fill="none" stroke="#00e5ff" stroke-opacity=".12" stroke-width="2">
+    <path d="M0 340h650m100-115h420m240 180h390m160-250h470m120 145h520"/>
+    <path d="M160 590h290m150-110h410m230 210h360m250-150h460m90 140h370"/>
+    <path d="M420 180v220m90-100v160m1980-270v230m-110 70v130"/>
+  </g>
+  <g fill="#00e5ff" opacity=".33">
+    <circle cx="650" cy="340" r="4"/><circle cx="1170" cy="225" r="4"/>
+    <circle cx="1800" cy="405" r="4"/><circle cx="2530" cy="155" r="4"/>
+    <circle cx="450" cy="590" r="4"/><circle cx="2240" cy="540" r="4"/>
+  </g>
+
+  <path d="M0 1390 180 1320v-250h210v185l120-42V920h240v410l115 38V1080h185v385l140-35V980h225v450l115 38V1115h190v390l125-30V880h245v575l120 35V1080h220v375l125-48v-235h245v395H0z"
+        fill="#090d19" stroke="#202b48" stroke-width="5"/>
+  <path d="M180 1320v-250h210v435H0v-115zM510 920h240v410l-240-80zM925 1080h185v385H750v-40l175 45zM1250 980h225v450l-225-75zM1700 1115h190v390h-190zM2015 880h245v575l-245-80zM2380 1080h220v375l-220-70zM2645 1220h235v347h-235z"
+        fill="url(#tower)" opacity=".92"/>
+
+  <g fill="url(#windows)" opacity=".74">
+    <path d="M194 1090h180v310H194zM530 945h200v390H530zM948 1100h140v335H948z"/>
+    <path d="M1270 1005h185v425h-185zM1718 1140h155v350h-155z"/>
+    <path d="M2038 910h200v540h-200zM2400 1105h180v340h-180zM2670 1240h185v305h-185z"/>
+  </g>
+  <g fill="none" stroke-width="5">
+    <path d="M194 1070h180m-180 68h180M530 925h200m-200 130h200M1270 990h185m-185 145h185M2038 895h200m-200 100h200"
+          stroke="#00e5ff" stroke-opacity=".52"/>
+    <path d="M750 1450h175m325-34h225m425 54h190m415-31h220"
+          stroke="#ff2bd6" stroke-opacity=".5"/>
+  </g>
+
+  <path d="M0 1495h2880v305H0z" fill="#070a12" opacity=".55"/>
+  <path d="M1440 1435 0 1800m1440-365 500 365m-500-365 1050 365m-1050-365-250 365m250-365-750 365m750-365 1500 365"
+        fill="none" stroke="#00e5ff" stroke-opacity=".14" stroke-width="3"/>
+  <path d="M0 1500h2880M0 1560h2880M0 1640h2880M0 1740h2880"
+        fill="none" stroke="#00e5ff" stroke-opacity=".12" stroke-width="3"/>
+
+  <g fill="none" stroke="#00e5ff" stroke-opacity=".45" stroke-width="3">
+    <path d="M95 95h170m-170 0v54M2785 95h-170m170 0v54M95 1705h170m-170 0v-54M2785 1705h-170m170 0v-54"/>
+    <path d="M110 185h90m20 0h34M2640 185h90m-120 0h18M105 1615h55m25 0h55M2630 1615h120"/>
+  </g>
+  <g fill="#ff2bd6" filter="url(#glow)" opacity=".62">
+    <circle cx="1440" cy="1428" r="5"/><circle cx="2038" cy="895" r="4"/>
+  </g>
+</svg>
